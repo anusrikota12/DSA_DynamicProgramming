@@ -1,7 +1,5 @@
 package Demo;
-
 public class LongestCommonSubsequence {
-
     static int lcs(String s1, String s2) {
 
         int n = s1.length();
@@ -18,7 +16,6 @@ public class LongestCommonSubsequence {
         }
         return dp[n][m];
     }
-
     public static void main(String[] args) {
         String s1 = "abcde";
         String s2 = "ace";
